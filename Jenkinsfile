@@ -6,7 +6,7 @@ pipeline {
     environment {
         AWS_REGION = 'us-east-1'  // AWS bölgesini ayarlayın
     }
-}
+
     stages {
         stage('Set Workspace') {
             steps {
@@ -48,4 +48,5 @@ pipeline {
             }
         }
     }
+}
 }
